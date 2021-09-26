@@ -6,3 +6,11 @@ $ python3 manage.py runserver
 $ python3 manage.py makemigrations
 
 $ python3 manage.py migrate로 DB에 공간 만들기
+
+
+# admin 계정
+jincrates / 1111
+
+
+# 흐름
+localhostL8000 -> mysite의 urls.py -> electrons의 urls.py -> views.py의 index 메소드

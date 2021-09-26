@@ -7,3 +7,5 @@ class Candidate(models.Model):
     area = models.CharField(max_length = 15)
     party_number = models.IntegerField(default = 0)
 
+    def __str__(self):
+        return self.name  #object를 출력하면 name이 보입니다.

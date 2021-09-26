@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path, include 
 
 urlpatterns = [
-    path('admin/', admin.site.urls), #localhost:8000으로 요청이 들어오면 elections.urls로 전달
     path('', include('elections.urls')), #elections app을 include 해주는것임.
+    path('admin/', admin.site.urls), #localhost:8000으로 요청이 들어오면 elections.urls로 전달
 ]
+
+
